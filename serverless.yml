@@ -13,7 +13,6 @@ package:
   exclude:
     - "**/*"
   include:
-    - templates/lambdas/getPosts.js
     - templates/lambdas/translator.js
 
 functions:
