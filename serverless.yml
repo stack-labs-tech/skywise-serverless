@@ -3,7 +3,7 @@ service: 'stack-skywise-serverless'
 provider:
   name: aws
   stage: ${opt:env, 'dev'}
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   region: 'eu-west-2'
   environment:
     S3_BUCKET_NAME: serverless-stack-labs-skywise-serverless
