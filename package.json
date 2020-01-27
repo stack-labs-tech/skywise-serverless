@@ -1,11 +1,9 @@
 {
-  "name": "formation-libre-serverless",
+  "name": "skywise-serverless",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "ssh://git-codecommit.eu-west-2.amazonaws.com/v1/repos/formation-libre-serverless",
+  "repository": "ssh://git@github.com:stack-labs-tech/skywise-serverless.git",
   "authors": [
-    "Laurent Noireterre <laurent.noireterre@stack-labs.com>",
-    "Chabane Refes <chabane.refes@stack-labs.com>",
     "Arthur Sudre <arthur.sudre@stack-labs.com>"
   ],
   "license": "MIT",
