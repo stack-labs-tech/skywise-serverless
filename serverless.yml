@@ -1,4 +1,4 @@
-service: 'stack-meetup-gdg-toulouse'
+service: 'stack-skywise-serverless'
 
 provider:
   name: aws
@@ -6,7 +6,7 @@ provider:
   runtime: nodejs8.10
   region: 'eu-west-2'
   environment:
-    S3_BUCKET_NAME: serverless-stack-labs-meetup-gdg-toulouse
+    S3_BUCKET_NAME: serverless-stack-labs-skywise-serverless
   variableSyntax: "\\${((?=self:|env:|opt:|ssm:|s3:|cf:|deep:|file\\()[ ~:a-zA-Z0-9._\\'\",\\-\\/\\(\\)]+?)}"
 
 package:
